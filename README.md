@@ -2,10 +2,91 @@
   <img src="images/banner.png" alt="Bright TV Audience Analytics Banner" width="100%">
 </p>
 
-This Project Analyses the viewership and user profiles of Bright TV Customers
 # 📺 Bright TV Audience Analytics
+This project analyses Bright TV subscriber demographics and television viewing behaviour to generate data-driven business insights and executive recommendations.
+## End-to-End SQL & Business Intelligence Project
 
-### End-to-End SQL & Business Intelligence Project
+## 📌 Executive Summary
+
+Bright TV aims to better understand audience viewing behaviour and customer demographics to improve programming decisions, audience engagement, and strategic planning.
+
+This project analyses television viewing records alongside subscriber demographic information using Databricks SQL. The project follows a complete analytics lifecycle, including data exploration, quality assessment, cleaning, feature engineering, exploratory analysis, KPI development, and business recommendations.
+
+The final deliverables include SQL scripts, business insights, interactive dashboard designs, and executive recommendations that demonstrate how data can support informed business decisions.
+
+# 🎯 Business Problem
+
+Bright TV collects large volumes of customer profile and television viewership data. However, raw operational data alone does not provide meaningful insights for executives.
+
+The challenge is to transform this data into actionable intelligence that answers critical business questions, including:
+
+- Who are Bright TV's primary viewers?
+- Which television channels attract the largest audiences?
+- When do viewers watch television the most?
+- Which provinces have the highest engagement?
+- Which customer segments should receive targeted marketing campaigns?
+- How can Bright TV improve customer retention and viewer engagement?
+
+This project addresses these questions through SQL analysis and business intelligence techniques.
+---
+# 🎯 Project Objectives
+
+The objectives of this project are to:
+
+- Perform comprehensive data quality assessment.
+- Identify and resolve missing and inconsistent values.
+- Prepare clean analytical datasets.
+- Engineer new business-focused features.
+- Analyse audience demographics.
+- Analyse television viewing behaviour.
+- Calculate executive KPIs.
+- Develop interactive dashboard-ready datasets.
+- Generate business recommendations supported by data.
+
+- # 🛠️ Technology Stack
+
+| Tool | Purpose |
+|------|---------|
+| Databricks SQL | Data exploration, transformation and analysis |
+| SQL | Querying, feature engineering and KPI development |
+| Microsoft Excel | Data validation and exploratory analysis |
+| Power BI | Interactive dashboard development |
+| GitHub | Version control and project portfolio |
+| Canva | Project documentation and visual design |
+
+# 📂 Dataset Overview
+
+The project uses two datasets.
+
+## 1️⃣ User Profiles
+
+Contains demographic information about Bright TV subscribers.
+
+Key fields include:
+
+- UserID
+- Age
+- Gender
+- Race
+- Province
+- Email
+- Social Media Handle
+
+---
+
+## 2️⃣ Viewership Dataset
+
+Contains television viewing activity.
+
+Key fields include:
+
+- UserID
+- RecordDate
+- Channel
+- Duration
+- Viewing Time
+
+The datasets are joined using **UserID** to create a single analytical dataset for reporting and dashboard development.
 
 ![SQL](https://img.shields.io/badge/SQL-Databricks-red)
 
