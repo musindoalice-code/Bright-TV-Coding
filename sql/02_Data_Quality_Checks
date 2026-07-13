@@ -1,0 +1,26 @@
+-- Duplicate Users
+SELECT UserID,
+COUNT(*) AS duplicate_count
+FROM workspace.default.bright_tv_userprofiles
+GROUP BY UserID
+HAVING COUNT(*) > 1;
+
+-- Missing User IDs
+SELECT COUNT(*)
+FROM workspace.default.bright_tv_userprofiles
+WHERE UserID IS NULL;
+
+-- Missing Gender
+SELECT COUNT(*)
+FROM workspace.default.bright_tv_userprofiles
+WHERE Gender=' ';
+
+-- Missing Race
+SELECT COUNT(*)
+FROM workspace.default.bright_tv_userprofiles
+WHERE Race IS NULL;
+
+-- Missing Province
+SELECT COUNT(*)
+FROM workspace.default.bright_tv_userprofiles
+WHERE Province=' ';
